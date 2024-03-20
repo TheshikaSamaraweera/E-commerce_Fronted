@@ -3,20 +3,20 @@ import {BsFacebook, BsLinkedin, BsTwitter,BsInstagram} from "react-icons/bs"
 
 const HeaderTop = () => {
   return (
-    <div className='border-b border-gray-200 hidden '>
-        <div>
-            <div>
-                <div>
-                    <div>
+    <div className='border-b border-gray-200 hidden sm:block'>
+        <div className='container py-4'>
+            <div className='flex justify-between items-center'>
+                <div className='hidden lg:flex gap-2'>
+                    <div className='header_top_icon_wrapper'>
                         <BsFacebook />
-                    </div>
-                    <div>
+                    </div >
+                    <div className='header_top_icon_wrapper'>
                         <BsTwitter/>
                     </div>
-                    <div>
+                    <div className='header_top_icon_wrapper'>
                         <BsInstagram />
                     </div>
-                    <div>
+                    <div className='header_top_icon_wrapper'>
                         <BsLinkedin />
                     </div>
 
