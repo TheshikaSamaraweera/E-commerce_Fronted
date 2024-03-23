@@ -6,6 +6,10 @@ import Navbar from "@/components/Navbar";
 import MobNavbar from "@/components/MobNavbar";
 import Hero from "@/components/Hero";
 
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
