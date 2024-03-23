@@ -4,6 +4,7 @@ import HeaderTop from "@/components/HeaderTop";
 import HeaderMain from "@/components/HeaderMain";
 import Navbar from "@/components/Navbar";
 import MobNavbar from "@/components/MobNavbar";
+import Hero from "@/components/Hero";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +21,7 @@ export default function RootLayout({ children }) {
         <HeaderMain/>
         <Navbar />
         <MobNavbar />
-        
+        <Hero />
         {children}</body>
     </html>
   );
