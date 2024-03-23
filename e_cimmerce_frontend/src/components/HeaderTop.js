@@ -25,17 +25,18 @@ const HeaderTop = () => {
 
 
                 <div className='text-gray-500 text-[12px]'>
-                    <strong>FREE SHIPPING</strong>
+                    <strong>FREE SHIPPING  </strong>
+                    THIS WEEK ORDER OVER -$55
                 </div>
+                
 
-
-                <div>
-                    <select name='currancy' id='currncy'>
+                <div className='flex gap-4'>
+                    <select name='currancy' id='currncy' className='text-gray-500 text-[12px] w-[70px]'>
                         <option value='USD $'>USD $</option>
                         <option value='EUR $'>EUR $</option>
                     </select>
 
-                    <select name='language' id='language'>
+                    <select name='language' id='language' className='text-gray-500 text-[12px] w-[80px]'>
                         <option value='English'>English</option>
                         <option value='Freanch'>Freanch</option>
                     </select>
@@ -43,6 +44,7 @@ const HeaderTop = () => {
             </div>
         </div>
     </div>
+    
   )
 }
 
