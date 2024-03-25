@@ -6,7 +6,14 @@ import ProductCard from './ProductCard'
 const productsData =[
 
     {
-        img: "/jacket.jpg",
+        img: "/denim1.jpg",
+        title: "Jacket",
+        desc:"MEN Yarn Fleece Full-Zip Jacket",
+        rating: 5,
+        price: "55.00",
+    },
+    {
+        img: "/jacket1.jpg",
         title: "Jacket",
         desc:"MEN Yarn Fleece Full-Zip Jacket",
         rating: 5,
@@ -14,25 +21,64 @@ const productsData =[
     },
     {
         img: "/shirt.jpg",
-        title: "Jacket",
-        desc:"MEN Yarn Fleece Full-Zip Jacket",
-        rating: 5,
-        price: "55.00",
-    },
-    {
-        img: "/trowsers.jpeg",
         title: "trowsers",
         desc:"MEN Yarn Fleece Full-Zip Jacket",
         rating: 5,
         price: "55.00",
     },
     {
-        img: "/jacket.jpg",
+        img: "/tshirt1.jpg",
         title: "Jacket",
         desc:"MEN Yarn Fleece Full-Zip Jacket",
         rating: 5,
         price: "55.00",
     },
+
+    {
+      img: "/top1.jpg",
+      title: "Jacket",
+      desc:"MEN Yarn Fleece Full-Zip Jacket",
+      rating: 5,
+      price: "55.00",
+  },
+
+  {
+    img: "/denim2.jpg",
+    title: "Jacket",
+    desc:"MEN Yarn Fleece Full-Zip Jacket",
+    rating: 5,
+    price: "55.00",
+},
+{
+    img: "/jacket2.jpg",
+    title: "Jacket",
+    desc:"MEN Yarn Fleece Full-Zip Jacket",
+    rating: 5,
+    price: "55.00",
+},
+{
+    img: "/shirt1.jpg",
+    title: "trowsers",
+    desc:"MEN Yarn Fleece Full-Zip Jacket",
+    rating: 5,
+    price: "55.00",
+},
+{
+    img: "/tshirt2.jpg",
+    title: "Jacket",
+    desc:"MEN Yarn Fleece Full-Zip Jacket",
+    rating: 5,
+    price: "55.00",
+},
+
+{
+  img: "/top2.jpg",
+  title: "Jacket",
+  desc:"MEN Yarn Fleece Full-Zip Jacket",
+  rating: 5,
+  price: "55.00",
+},
+
 
 ]
 

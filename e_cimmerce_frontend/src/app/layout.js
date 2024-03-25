@@ -9,6 +9,7 @@ import Hero from "@/components/Hero";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <MobNavbar />
         {children}</body>
+        <Footer />
     </html>
   );
 }
